@@ -16,3 +16,4 @@ class BookORM(Base):
     name: Mapped[str]
     author: Mapped[Optional[str]]
     year: Mapped[Optional[int]]
+    user_id: Mapped[int]
